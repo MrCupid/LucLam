@@ -1,4 +1,4 @@
-[Project]Lục Lam
+Lục Lam
 ======
 
 Social of Food
