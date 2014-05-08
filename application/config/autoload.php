@@ -21,7 +21,7 @@
 | 1. Packages
 | 2. Libraries
 | 3. Helper files
-| 4. Custom config files
+| 4. Custom config files 
 | 5. Language files
 | 6. Models
 |
@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session','cart');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('url','form','security','language','cookie');
 
 
 /*

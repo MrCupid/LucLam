@@ -1,62 +1,63 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>404 Page Not Found</title>
-<style type="text/css">
-
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
-
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
-
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
-
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
-
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
-
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	-webkit-box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
+    <title>Hệ thống không tìm thấy dữ liệu | Foody.vn</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+        body{background:#fff;font-size:12px;font-family:Arial; color:#333;margin:0; padding:0;line-height:1.6em;}
+        .errorpage-container{margin:30px auto;width:1000px;}
+        .errorpage{padding:10px 0px; margin-top:0px; tline-height:1.6em;margin-bottom:20px;float:left;width:500px;}
+        .page_stream_short{border-top:1px #eee solid!important;}
+        .header{width: 100%;z-index: 999;}
+        .header .container-s {background: #f9f9f9;height: 46px;width: 100%;margin: 0 auto;box-shadow: 0 1px 1px rgba(0,0,0,.15);}
+        .container-f {padding: 0 30px;margin: 0 auto;position: relative;z-index: 1000;}
+        .header .logo {float: left;width: 100px;position: relative;margin-top:6px;}
+        .foody-intro{border-top:#eee 1px solid; margin-top:60px; padding-top:20px;float:left; width:100%;}
+        .foody-intro ul{list-style:none;margin:0; padding:0;}
+        .foody-intro ul li{float:left; padding:2px 0;color:#777;}
+        .foody-intro ul li a{float:left; width:150px;color:#111;text-decoration:none;font-weight:bold;}
+        .foody-intro ul li a:hover{text-decoration:underline;}
+        .error-page-contact {float:left; margin:25px 0 5px 0;}
+        .error-page-contact a{border:#eee 1px solid; background:#f7f7f7; border-radius:2px;padding:8px 10px;color:#333; text-decoration:none;font-weight:bold;}
+        .error-page-contact a:hover{background:#f9f9f9;}
+    </style>
 </head>
 <body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
-	</div>
+<header class="header">
+    <div style="z-index: 1000; width: 100%;">
+        <div class="container-s">
+            <div class="container-f">
+                <div class="logo">
+                    <div>
+                        <a href="/">
+                            <img src="http://localhost/luclam/static/style/images/icon-logo.png" alt="Lục lam"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="errorpage-container">
+    <div class="errorpage">
+        <h1>Không tìm thấy dữ liệu!</h1>
+        <p style="padding-top:10px;">Lục lam rất tiếc vì dữ liệu trên trang bạn đang xem không tồn tại hoặc sai địa chỉ. Vui lòng liên hệ với đội ngũ quản trị nếu bạn cần được hướng dẫn <em>hoặc</em> quay về trang chủ để bắt đầu lại!</p>
+        <p class="error-page-contact">
+            <a href="/luclam">Quay về trang chủ</a>
+            <a href="/lien-he">Liên hệ</a>
+        </p>
+        <!--<div class="foody-intro">
+            <ul>
+                <li><a href="/">Tìm địa điểm</a> <span>Hàng chục ngàn địa điểm trên cả nước</span></li>
+                <li><a href="/ung-dung-mobile">Tải App cho Mobile</a> <span>App cho iPhone & Android</span></li>
+                <li><a href="/viet-binh-luan">Chia sẻ Reviews</a> <span>Cộng đồng lớn, hàng ngàn reviews</span></li>
+                <li><a href="/tao-list">Lưu trữ địa điểm</a> <span>Cộng đồng lớn, hàng ngàn reviews</span></li>
+                <li><a href="/ho-chi-minh/khuyen-mai">Tin khuyến mãi</a> <span>Cập nhật tin tức khuyến mãi ăn uống</span></li>
+                <li><a href="/bai-viet">Blogs ẩm thực</a> <span>Các bài tổng hợp ăn uống</span></li>
+            </ul>
+        </div> -->
+    </div>
+
+</div>
 </body>
 </html>

@@ -20,7 +20,7 @@
 |	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
-| RESERVED ROUTES
+| RESERVED ROUTES 
 | -------------------------------------------------------------------------
 |
 | There area two reserved routes:
@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "home";
 $route['404_override'] = '';
 
 
